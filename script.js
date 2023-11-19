@@ -11,3 +11,12 @@ $(document).ready(function () {
         }
     });
 });
+
+$(document).ready(function(){
+    var typed = new Typed(".typing", {
+        strings: ["Guardian",""],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+});
